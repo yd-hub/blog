@@ -39,7 +39,7 @@ export default navbar([
         text: "前端基础",
         icon: "pen-to-square",
         children: [
-          { text: "html", icon: "fa-brands:html5", link: "html/HTML5" },
+          { text: "HTML+CSS", icon: "fa-brands:html5", link: "html/" },
           { text: "JavaScript", icon: "fa-brands:js", link: "JavaScript/WebAPIs" },
         ],
       },

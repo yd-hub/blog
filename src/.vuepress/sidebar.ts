@@ -8,17 +8,20 @@ export default sidebar({
   "/note/": [
     '',
     {
-      text: "html",
+      text: "HTML+CSS",
       icon: "fa-brands:html5",
       prefix: "html/",
-      collapsible: true,
-      children: "structure",
+      link: "html/",
+      // collapsible: true,
+      children: [
+        "SCSS_LESS"
+      ],
     },
     {
       text: "JavaScript",
       icon: "fa-brands:js",
       prefix: "JavaScript/",
-      collapsible: true,
+      // collapsible: true,
       children: "structure",
     },
   ], 
