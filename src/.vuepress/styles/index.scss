@@ -1,0 +1,26 @@
+// place your custom styles here
+.vp-blog-hero-image{
+  width: 160px;
+  height: 160px;
+  margin-bottom: 0;
+}
+.vp-blog-hero-title,.vp-blog-hero-description{
+  width: 100%;
+  text-align: center;  
+  // background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 25%,rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 46px;
+
+}
+.vp-blog-hero-title{
+  padding: 30px 0 0 0;  
+  font-family: 'Lora', serif;
+
+}
+.vp-blog-hero-description{
+  padding: 0 0 30px 0;
+  margin-top: 0px;
+  font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+}
