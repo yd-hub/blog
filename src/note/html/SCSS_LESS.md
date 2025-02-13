@@ -5,7 +5,8 @@ category:
   - HTML
   - 前端笔记
 tag:
-  - HTML
+  - LESS
+  - SCSS
   - CSS
 
 ---

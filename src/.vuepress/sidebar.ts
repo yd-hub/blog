@@ -2,11 +2,27 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/posts/": [
-    '',
-    'first-post'
+    {
+      text: '我的文章', 
+      icon: 'book', 
+      link: '/posts/',
+    },
+    {
+      text: "问题日志",
+      icon: "question",
+      prefix: "ProblemLog/",
+      // collapsible: true,
+      children: [
+        "yuqueCORS"
+      ],
+    },
   ],
   "/note/": [
-    '',
+    {
+      text: '前端笔记', 
+      icon: 'book-open', 
+      link: '/note/',
+    },
     {
       text: "HTML+CSS",
       icon: "fa-brands:html5",
@@ -32,11 +48,13 @@ export default sidebar({
       text: "前端笔记",
       icon: "book-open",
       link: "note/",
+      prefix: "note/",
     },
     {
       text: "我的文章",
       icon: "book",
       link: "posts/",
+      prefix: "posts/",
     },
     // {
     //   text: "时间轴",

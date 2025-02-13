@@ -3,28 +3,11 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   
-  {
-    text: "网站导航",
-    icon: "map",
-    link: "/intro",
-  },
-  {
-    text: "我的文章",
-    icon: "book",
-    prefix: "/posts/",
-      children: [
-          {
-            text: "我的文章",
-            icon: "book",
-            link: "/posts/"
-          },
-          {
-            text: "第一篇文章",
-            icon: "pen-to-square",
-            link: "/posts/first-post"
-          },
-      ],
-  },
+  // {
+  //   text: "网站导航",
+  //   icon: "map",
+  //   link: "/intro",
+  // },
   {
     text: "前端笔记",
     icon: "book-open",
@@ -45,6 +28,24 @@ export default navbar([
       },
     ],
   },
+  {
+    text: "我的文章",
+    icon: "book",
+    prefix: "/posts/",
+      children: [
+          {
+            text: "我的文章",
+            icon: "book",
+            link: "/posts/"
+          },
+          {
+            text: "问题日志",
+            icon: "question",
+            link: "/posts/ProblemLog/"
+          },
+      ],
+  },
+ 
   // {
   //   text: "时间轴",
   //   icon: "clock",

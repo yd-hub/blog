@@ -2,7 +2,7 @@
 icon: fa-brands:html5
 date: 2025-02-12
 category:
-  - HTML
+  - HTML+CSS
   - 前端笔记
 tag:
   - HTML
@@ -11,17 +11,20 @@ tag:
 ---
 
 # HTML+CSS
-复习所记，并不详细，详细笔记见下方尚硅谷笔记。
+复习所记，并不全面，详细笔记见下方尚硅谷笔记。
 
-> gitee地址 浏览器预览/下载：
-> [尚硅谷 - CSS2笔记](https://gitee.com/zhaoStore/learning-notes/raw/master/HTML+CSS/CSS2%E7%AC%94%E8%AE%B0.pdf)
->
-> [尚硅谷 - CSS3笔记](https://gitee.com/zhaoStore/learning-notes/raw/master/HTML+CSS/CSS3%E7%AC%94%E8%AE%B0.pdf)
->
-> [尚硅谷 - HTML4笔记](https://gitee.com/zhaoStore/learning-notes/raw/master/HTML+CSS/HTML4%E7%AC%94%E8%AE%B0.pdf)
->
-> [尚硅谷 - HTML5笔记](https://gitee.com/zhaoStore/learning-notes/raw/master/HTML+CSS/HTML5%E7%AC%94%E8%AE%B0.pdf)
-
+>::: details 尚硅谷-HTML4笔记
+><PDF url="//yd-hub.github.io/docs/尚硅谷-HTML4笔记.pdf" />
+>::: 
+>::: details 尚硅谷-HTML5笔记
+><PDF url="//yd-hub.github.io/docs/尚硅谷-HTML5笔记.pdf" />
+>::: 
+>::: details 尚硅谷-CSS2笔记
+><PDF url="//yd-hub.github.io/docs/尚硅谷-CSS2笔记.pdf" />
+>::: 
+>::: details 尚硅谷-CSS3笔记
+><PDF url="//yd-hub.github.io/docs/尚硅谷-CSS3笔记.pdf" />
+>::: 
 ## html4
 h1~h6 不能互相嵌套。
 
@@ -101,8 +104,7 @@ div>a {
 
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1711453917991-394e7290-1238-453e-8a10-e9d48874852d.png)
-
+<imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1711453917991-394e7290-1238-453e-8a10-e9d48874852d.png"/>
 #### 兄弟选择器  
 ##### 相邻兄弟选择器  
 ```css
@@ -992,8 +994,8 @@ column-span 指定是否跨列；值: none 、 all 。
                 项目三需要收缩： 比例值3 × 300
 
 #### flex复合属性
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1721551201938-109ac799-d7ff-4cf7-af44-fb47b4edc72b.png)
 
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1721551201938-109ac799-d7ff-4cf7-af44-fb47b4edc72b.png"/>
             flex 是复合属性，复合了： flex-grow 、 flex-shrink 、 flex-basis 三个属性，默认值为 0 1
 
             auto 。
@@ -1202,8 +1204,8 @@ html{
 
 [grid网格布局，比flex方便太多了，介绍几种常用的grid布局属性_grid布局,子元素独占一行-CSDN博客](https://blog.csdn.net/qq_18798149/article/details/133872183)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1724405625780-3da35090-a227-445c-b5cf-9f7c01675816.png)
 
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1724405625780-3da35090-a227-445c-b5cf-9f7c01675816.png"/>
 #### `grid-template-columns` 参数
 1. `fr`平均分配一份宽度
 
@@ -1249,9 +1251,9 @@ gird布局的元素无缝紧挨，需加gap调整。
 }
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1729588500402-f73376af-9a49-4680-a1cf-1cc93c57a4a4.png)
 
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1729588516495-e77984be-8092-43b2-a249-dc48aaae7433.png)
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1729588500402-f73376af-9a49-4680-a1cf-1cc93c57a4a4.png"/>
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1729588516495-e77984be-8092-43b2-a249-dc48aaae7433.png"/>
 
 #### <font style="color:rgb(79, 79, 79);">grid-row 和 grid-column 元素控制</font>
 grid-row 和 grid-column 可以控制某个元素占领几份
@@ -1271,12 +1273,11 @@ grid-row 和 grid-column 可以控制某个元素占领几份
 }
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1729589291236-240d1155-a5fa-4a29-bb39-e15efa743060.png)
+
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1729589291236-240d1155-a5fa-4a29-bb39-e15efa743060.png"/>
 
 
-
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1729589495314-e1dfedaf-705c-467a-803c-409a5b770b2a.png)
-
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1729589495314-e1dfedaf-705c-467a-803c-409a5b770b2a.png"/>
 ### 渐变背景
 > 版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
 >
@@ -1284,8 +1285,8 @@ grid-row 和 grid-column 可以控制某个元素占领几份
 >
 
 #### 1.简单的线性渐变
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501355102-b5ffc650-df17-40da-9045-08bd7a7bd751.png)
 
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501355102-b5ffc650-df17-40da-9045-08bd7a7bd751.png"/>
 ```css
 .layout{
   width: 100%;
@@ -1295,8 +1296,9 @@ grid-row 和 grid-column 可以控制某个元素占领几份
 ```
 
 #### 2.层叠多层的渐变（左右+上下+背景图）
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501507296-d5059a12-7db2-4a37-908c-90534be860ca.png)
 
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501507296-d5059a12-7db2-4a37-908c-90534be860ca.png"/>
+  
 ```css
 .layout{
 	width: 100%;
@@ -1309,7 +1311,7 @@ grid-row 和 grid-column 可以控制某个元素占领几份
 ```
 
 #### 3.多重径向渐变，（线性渐变+径向渐变的组合）
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501501971-c781a461-21a6-4daa-9044-f5eef246bd8e.png)
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501501971-c781a461-21a6-4daa-9044-f5eef246bd8e.png"/>
 
 ```css
 .layout{
@@ -1323,7 +1325,7 @@ grid-row 和 grid-column 可以控制某个元素占领几份
 ```
 
 #### 4.更加复杂的混合型渐变背景
-![](https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501492269-cfbfa06d-3136-4b88-9e43-f6c49c601e47.png)
+  <imageProxy src="https://cdn.nlark.com/yuque/0/2024/png/36126128/1724501492269-cfbfa06d-3136-4b88-9e43-f6c49c601e47.png"/>
 
 ```css
 .layout{
