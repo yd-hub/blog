@@ -448,9 +448,9 @@ e.target.dataset.属性值
 
  获取元素位置的时候使用，只读属性。
 
-![粉盒子无定位](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698395919689-55d6e49e-8de4-41d8-b7a0-652257dcd16b.png)![粉盒子有定位](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698395949239-b2ac4c0f-f1e4-4b2c-9739-875b93d1c3ec.png)
-
-#### **滚动事件获取位置：**scrollLeft/scrollTop 左/上 已卷去多少
+<imageProxy hasBorder title="粉盒子无定位" src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698395919689-55d6e49e-8de4-41d8-b7a0-652257dcd16b.png"/>
+<imageProxy hasBorder  title="粉盒子有定位" src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698395949239-b2ac4c0f-f1e4-4b2c-9739-875b93d1c3ec.png"/>
+#### **滚动事件获取位置：** scrollLeft/scrollTop 左/上 已卷去多少
 
 > 获取html固定写法：document.documentElement
 >
@@ -555,7 +555,7 @@ data.getTime()
 Date.now()
 ```
 
-#### 倒计时****
+#### 倒计时
 
 **算法**
 
@@ -599,7 +599,7 @@ parentNode：
 
 子元素.parentNode.parentNode //返回爷爷节点
 
-#### **子节点查找 childNodes/****<font style="color:#DF2A3F;">childern</font>**
+#### **子节点查找 childNodes/** **<font style="color:#DF2A3F;">childern</font>**
 
 childNodes：
 
@@ -770,8 +770,7 @@ setTimeout(回调函数,等待毫秒数)	只会执行一次
 
 JavaScript的一大特点是单线程
 
-![答案全为：1111 3333 2222](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698545519366-31dd973b-ad7e-4073-a141-241251e5cb8f.png)
-
+<imageProxy  title="答案全为：1111 3333 2222"  src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698545519366-31dd973b-ad7e-4073-a141-241251e5cb8f.png"/>
 #### **同步任务**
 
 同步任务都在主线程上执行，形成一个<font style="color:#DF2A3F;">执行栈</font>
@@ -792,6 +791,8 @@ JS的异步是通过回调函数实现的，一般异步任务有以下三种类
 
 [Promise - 宏任务与微任务](https://www.yuque.com/u34561593/ccc/rmpev43t5wt9dp3r#qQL4o)
 
+
+
 面试常问
 
 1. 先执行执行栈中的同步任务。 
@@ -800,10 +801,10 @@ JS的异步是通过回调函数实现的，一般异步任务有以下三种类
 
 3. 一旦执行栈中的所有同步任务执行完毕，系统就会按次序读取任务队列中的异步任务，于是被读取的异步任务结束等待 状态，进入执行栈，开始执行
 
-![](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698546945146-838cb183-558d-4ab6-b399-7abad8ac104b.png)
 
-![](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698547063779-7b61abac-fc17-44aa-a2a6-ad62d11fa279.png)
+<imageProxy  src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698546945146-838cb183-558d-4ab6-b399-7abad8ac104b.png"/>
 
+<imageProxy  src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698547063779-7b61abac-fc17-44aa-a2a6-ad62d11fa279.png"/>
 ### location对象 
 
 location (地址) 它拆分并保存了 URL 地址的各个组成部分， 它是一个对象
@@ -921,7 +922,7 @@ history对象一般在实际开发中比较少用，但是会在一些OA 办公�
 
 **作用:** 数据可以长期保留在本地浏览器中，刷新页面和关闭页面，数据也不会丢失
 
-**特性：**以键值对的形式存储，并且存储的是字符串， 省略了window
+**特性:** 以键值对的形式存储，并且存储的是字符串， 省略了window
 
 语法
 
@@ -987,7 +988,7 @@ const reg =  /表达式/
 
 找到返回一个数组，否则返回null
 
-![](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698720063306-7eb5f505-02ed-4b61-816d-ec4d4e3225c9.png)
+<imageProxy src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698720063306-7eb5f505-02ed-4b61-816d-ec4d4e3225c9.png"/>
 
 ```html
 <body>
@@ -1153,7 +1154,7 @@ MDN：[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Exp
 
 定义的规则限定在某个范围，比如只能是英文字母，或者数字等等，用表示范围
 
-![](https://cdn.nlark.com/yuque/0/2023/png/36126128/1698735063762-43de965c-9bbe-499d-aa0e-3b6a0c28f695.png)
+<imageProxy src="https://cdn.nlark.com/yuque/0/2023/png/36126128/1698735063762-43de965c-9bbe-499d-aa0e-3b6a0c28f695.png"/>
 
 ```html
 <body>
@@ -1201,7 +1202,7 @@ MDN：[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Exp
 
 某些常见模式的简写方式，区分字母和数字
 
-| **字符类 ** | **说明**                                                   |
+| **字符类** | **说明**                                                   |
 | ----------- | ---------------------------------------------------------- |
 | \d          | 匹配0-9之间任一数字，相当于[0-9]                           |
 | \D          | 匹配所有0-9以外的字符，相当于[^0-9]                        |
@@ -1215,17 +1216,17 @@ MDN：[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Exp
 >
 > 腾讯QQ号：^[1-9][0-9]{4,}$ （腾讯QQ号从10000开始）
 >
-> ^[1-9] 表示开头第一个字符必须 1-9 的数字
+> \^\[1-9\] 表示开头第一个字符必须 1-9 的数字
 >
-> [0-9]{4,}$ 表示 ≥4 位的 0-9 数字
+> \[0-9\]{4,}$ 表示 ≥4 位的 0-9 数字
 >
 > 日期格式：^\d\{4\}-\d\{1,2\}-\d\{1,2\}
 
-| **字符类 ** | **说明**                       |
+| **字符类** | **说明**                       |
 | ----------- | ------------------------------ |
 | ^           | 取反（在[ ]内表示取反）        |
 | .           | 匹配除换行符之外的任何单个字符 |
-|             |                                |
+|  \|          |     或 例如 /java|JAVA/ 匹配java或JAVA  |
 
 
 ## 替换和修饰符
@@ -1276,7 +1277,7 @@ replace 替换方法，可以完成字符的替换
 
 ## 扩展
 
-### <font style="color:rgb(27, 27, 27);">URL.createObjectURL()</font>
+### URL.createObjectURL()
 
 [URL.createObjectURL() - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/URL/createObjectURL_static#%E8%A7%84%E8%8C%83)
 
@@ -1288,17 +1289,17 @@ objectURL = URL.createObjectURL(object);
 img.src = objectURL
 ```
 
-### <font style="color:rgb(27, 27, 27);">FileReader()</font>
+### FileReader()
 
-<font style="color:rgb(27, 27, 27);">使用 </font>**<font style="color:rgb(27, 27, 27);">FileReader()</font>**<font style="color:rgb(27, 27, 27);"> 构造器去创建一个新的 FileReader.</font>
+使用` FileReader() `构造器去创建一个新的 FileReader.
 
 [FileReader - Web API 接口参考 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader)
 
-**<font style="color:rgb(27, 27, 27);">FileReader</font>**<font style="color:rgb(27, 27, 27);"> 对象允许 Web 应用程序异步读取存储在用户计算机上的文件（或原始数据缓冲区）的内容，使用 </font>[<font style="color:rgb(27, 27, 27);">File</font>](https://developer.mozilla.org/zh-CN/docs/Web/API/File)<font style="color:rgb(27, 27, 27);"> 或 </font>[<font style="color:rgb(27, 27, 27);">Blob</font>](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)<font style="color:rgb(27, 27, 27);"> 对象指定要读取的文件或数据。</font>
+**FileReader** 对象允许 Web 应用程序异步读取存储在用户计算机上的文件（或原始数据缓冲区）的内容，使用 [File](https://developer.mozilla.org/zh-CN/docs/Web/API/File) 或 [Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob) 对象指定要读取的文件或数据。
 
-#### <font style="color:rgb(27, 27, 27);">FileReader.readAsDataURL()</font>
+#### FileReader.readAsDataURL()
 
-<font style="color:rgb(27, 27, 27);">readAsDataURL</font><font style="color:rgb(27, 27, 27);"> 方法会读取指定的 </font>[Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob)<font style="color:rgb(27, 27, 27);"> 或 </font>[File](https://developer.mozilla.org/zh-CN/docs/Web/API/File)<font style="color:rgb(27, 27, 27);"> 对象。读取操作完成的时候，</font>[readyState](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader/readyState)<font style="color:rgb(27, 27, 27);"> 会变成已完成</font><font style="color:rgb(27, 27, 27);">DONE</font><font style="color:rgb(27, 27, 27);">，并触发 </font>[loadend](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/loadend_event)<font style="color:rgb(27, 27, 27);"> 事件，同时 </font>[<font style="background-color:#FBDE28;">result</font>](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader/result)<font style="color:rgb(27, 27, 27);background-color:#FBDE28;"> 属性将包含一个</font><font style="color:rgb(27, 27, 27);background-color:#FBDE28;">data:</font><font style="color:rgb(27, 27, 27);background-color:#FBDE28;">URL 格式的字符串（base64 编码）</font><font style="color:rgb(27, 27, 27);">以表示所读取文件的内容。</font>
+readAsDataURL 方法会读取指定的 [Blob](https://developer.mozilla.org/zh-CN/docs/Web/API/Blob) 或 [File](https://developer.mozilla.org/zh-CN/docs/Web/API/File) 对象。读取操作完成的时候，[readyState](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader/readyState) 会变成已完成DONE，并触发 [loadend](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/loadend_event) 事件，同时 [<font style="background-color:#FBDE28;">result</font>](https://developer.mozilla.org/zh-CN/docs/Web/API/FileReader/result)<font style="color:rgb(27, 27, 27);background-color:#FBDE28;"> 属性将包含一个</font><font style="color:rgb(27, 27, 27);background-color:#FBDE28;">data:</font><font style="color:rgb(27, 27, 27);background-color:#FBDE28;">URL 格式的字符串（base64 编码）</font>以表示所读取文件的内容。
 
 ```javascript
 const onSelectFile = (uploadFile) =>{//基于FileReader读取图片做预览

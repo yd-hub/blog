@@ -38,7 +38,11 @@ export default sidebar({
       icon: "fa-brands:js",
       prefix: "JavaScript/",
       // collapsible: true,
-      children: "structure",
+      children: [
+        "JavaScripBase",
+        "WebAPIs",
+        "ES6+"
+      ],
     },
   ], 
   "/": [

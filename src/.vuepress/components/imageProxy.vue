@@ -5,7 +5,15 @@ const props = defineProps({
     src: {
         type: String,
         required: true,
-    }
+    },
+    title:{
+        type: String,
+        default: ''
+    },
+    hasBorder:{
+        type: Boolean,
+        default: false
+    },
 })
 const imgUrl = ref('')
 const status = ref(0)    // 0: loading, 1: success, 2: error
@@ -70,8 +78,11 @@ onBeforeUnmount(() => {
 
 </script>
 <template>
-    <div ref="targetElement" :class="status === 1 ? '' : 'no-image'">
-        <img v-if="status === 1" :src="imgUrl" alt="" tabindex="0" loading="lazy">
+    <div ref="targetElement" :class="{'no-image': status !== 1}">
+        <div v-if="status === 1">
+            <img :class="{'has-border': props.hasBorder}" :src="imgUrl" alt="" tabindex="0" loading="lazy">
+            <span class="image-title"  v-if="props.title !== ''">{{ props.title }}</span>
+        </div>
         <template v-else-if="status === 2">
             <svg t="1739451438290" class="icon" viewBox="0 0 1280 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 p-id="1649" width="200" height="200">
@@ -103,11 +114,22 @@ onBeforeUnmount(() => {
 
 </template>
 <style lang="scss" scoped>
+.has-border{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.image-title{
+    color: #878787;
+    font-size: 15px;
+}
 div {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
     width: 100%;
+    margin-bottom: 10px;
     img {
         max-width: 100%;
         height: auto;
@@ -118,8 +140,6 @@ div {
     height: 300px;
     overflow: hidden;
     background-color: #464545;
-    flex-direction: column;
-    gap: 10px;
     color: #878787;
     svg {
         height: 60px;

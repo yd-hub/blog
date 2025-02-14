@@ -13,16 +13,16 @@ tag:
 # HTML+CSS
 复习所记，并不全面，详细笔记见下方尚硅谷笔记。
 
->::: details 尚硅谷-HTML4笔记
+>::: details 尚硅谷-HTML4笔记 [URL](https://yd-hub.github.io/docs/%E5%B0%9A%E7%A1%85%E8%B0%B7-HTML4%E7%AC%94%E8%AE%B0.pdf)
 ><PDF url="//yd-hub.github.io/docs/尚硅谷-HTML4笔记.pdf" />
 >::: 
->::: details 尚硅谷-HTML5笔记
+>::: details 尚硅谷-HTML5笔记 [URL](https://yd-hub.github.io/docs/%E5%B0%9A%E7%A1%85%E8%B0%B7-HTML4%E7%AC%94%E8%AE%B0.pdf)
 ><PDF url="//yd-hub.github.io/docs/尚硅谷-HTML5笔记.pdf" />
 >::: 
->::: details 尚硅谷-CSS2笔记
+>::: details 尚硅谷-CSS2笔记 [URL](https://yd-hub.github.io/docs/%E5%B0%9A%E7%A1%85%E8%B0%B7-HTML4%E7%AC%94%E8%AE%B0.pdf)
 ><PDF url="//yd-hub.github.io/docs/尚硅谷-CSS2笔记.pdf" />
 >::: 
->::: details 尚硅谷-CSS3笔记
+>::: details 尚硅谷-CSS3笔记 [URL](https://yd-hub.github.io/docs/%E5%B0%9A%E7%A1%85%E8%B0%B7-HTML4%E7%AC%94%E8%AE%B0.pdf)
 ><PDF url="//yd-hub.github.io/docs/尚硅谷-CSS3笔记.pdf" />
 >::: 
 ## html4
