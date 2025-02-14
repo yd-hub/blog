@@ -15,8 +15,7 @@ const loadImage = () => {
         timeout: 1000,
     })
         .then(res => {
-            console.log(111);
-            console.log(res);
+            // console.log(res);
             if (res.data.message == '图片获取失败') {
                 imgUrl.value = '';
                 status.value = 2;
@@ -27,8 +26,7 @@ const loadImage = () => {
         }).catch(err => {
             imgUrl.value = '';
             status.value = 2;
-            console.log(222);
-            console.log(err);
+            // console.log(err);
             // console.log(status.value);
         })
 }

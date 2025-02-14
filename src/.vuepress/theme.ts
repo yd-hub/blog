@@ -175,6 +175,11 @@ export default hopeTheme({
 
     components: {
       components: ["Badge", "VPCard", "PDF"],
+      componentOptions: {
+        pdf: {
+          pdfjs: "/pdfjs-4.10.38-dist",
+        },
+      },
     },
 
     icon: {
