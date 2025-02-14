@@ -41,7 +41,9 @@ export default sidebar({
       children: [
         "JavaScripBase",
         "WebAPIs",
-        "ES6+"
+        "JavaScriptUp",
+        "ES6+",
+        "JSMethods"
       ],
     },
   ], 

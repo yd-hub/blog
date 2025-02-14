@@ -15,9 +15,9 @@ export default defineClientConfig({
 
 defineGiscusConfig({
   // Giscus 选项
-  repo: "https://github.com/your-username/your-repo",
-  repoId: "MDEwOlJlcG9zaXRvcnkxMTYyMzQ5NzQ=",
-  category: "Announcements",
-  categoryId: "DIC_kwDOFEEY",
-  mapping: "pathname",
+  repo:"yd-hub/blog", 
+  repoId:"R_kgDON4KMyQ", 
+  category: "General",
+  categoryId:"DIC_kwDON4KMyc4Cm-Hu"
 })
+

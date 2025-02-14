@@ -12,7 +12,7 @@ export default hopeTheme({
   },
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
   logo: "/avatar.png",
-  // repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/yd-hub/blog",
   docsDir: "src",
   // 导航栏
   navbar,

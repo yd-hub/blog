@@ -7,7 +7,7 @@ heroImage: /avatar.png
 heroText: zhao's blog
 bgImage: https://env-00jxhapj7v5l.dev-hz.cloudbasefunction.cn/utils/getRandomImage?fx=0
 heroFullScreen: true
-tagline: 学无止境
+tagline: 学无止境 <p class="home-tag">刷新页面大图随机切换，由Down壁纸项目uniCloud后端提供</p>
 projects:
   - icon: /weather.png
     name: 天气预报
@@ -56,3 +56,5 @@ projects:
   #   link: https://你的自定义链接
 
 footer: zhao's blog
+
+---

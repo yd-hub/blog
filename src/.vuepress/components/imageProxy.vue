@@ -147,4 +147,21 @@ div {
     }
 
 }
+
+/* 为加载图标的 SVG 元素应用旋转动画 */
+.loading-icon {
+  animation: spin 2s linear infinite;
+  fill: #878787;
+}
+
+/* 定义旋转动画 */
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
 </style>

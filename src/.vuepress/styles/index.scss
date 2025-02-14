@@ -1,4 +1,5 @@
 // place your custom styles here
+// 主页
 .vp-blog-hero-image{
   width: 160px;
   height: 160px;
@@ -24,22 +25,16 @@
   font-weight: 600;
   font-family: '楷体','Noto Serif SC';
 }
-
-
-
-/* 为加载图标的 SVG 元素应用旋转动画 */
-.loading-icon {
-  animation: spin 2s linear infinite;
-  fill: #878787;
+.home-tag{
+  position: absolute;
+  left: 50%;
+  // 左移
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 12px;
+  // color: #999;
+  opacity: 0.6;
+  cursor: default;
 }
 
-/* 定义旋转动画 */
-@keyframes spin {
-  0% {
-      transform: rotate(0deg);
-  }
 
-  100% {
-      transform: rotate(360deg);
-  }
-}

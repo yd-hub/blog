@@ -1,5 +1,6 @@
 import { sidebar } from 'vuepress-theme-hope';
 import { defineUserConfig } from "vuepress";
+import { commentPlugin } from '@vuepress/plugin-comment'
 
 import theme from "./theme.js";
 export default defineUserConfig({
@@ -17,7 +18,11 @@ export default defineUserConfig({
 
     
   ],
-  
+  plugins: [
+    commentPlugin({
+      provider: 'Giscus', // Artalk | Giscus | Waline | Twikoo
+    }),
+  ],
   theme,
   // 和 PWA 一起启用
   // shouldPrefetch: false,

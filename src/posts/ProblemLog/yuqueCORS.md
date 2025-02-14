@@ -1,7 +1,8 @@
 ---
 title: 语雀资源跨域问题
-# icon: pen-to-square
+icon: mask
 date: 2025-02-13
+star: true
 category:
   - 问题日志
   - VuePress
@@ -200,6 +201,23 @@ div {
         fill: #878787;
     }
 
+}
+
+/* 为加载图标的 SVG 元素应用旋转动画 */
+.loading-icon {
+  animation: spin 2s linear infinite;
+  fill: #878787;
+}
+
+/* 定义旋转动画 */
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
 }
 </style>
 
