@@ -25,7 +25,6 @@ tag:
 ::: details 代码
 ``` js
 const axios = require('axios');  // 引入 axios 来请求外部图片
-const fs = require('fs');  // 引入 fs 用于文件操作（可选）
 
 module.exports = {
   // 云函数执行的主方法
